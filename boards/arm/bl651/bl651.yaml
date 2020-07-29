@@ -1,0 +1,12 @@
+identifier: bl651
+name: BL651
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - counter
+ram: 24
+flash: 192
